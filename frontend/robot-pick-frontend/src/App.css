@@ -1,0 +1,80 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: #333;
+  text-align: center;
+}
+
+.simulate-section, .event-log-section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block; /* Make button full width of its container */
+  margin: 10px auto; /* Center the button */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.filter-section {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.filter-section label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.filter-section input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 200px;
+}
+
+.events-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.events-table th, .events-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.events-table th {
+  background-color: #f2f2f2;
+}
+
+.events-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+p {
+  text-align: center;
+  color: #555;
+}
